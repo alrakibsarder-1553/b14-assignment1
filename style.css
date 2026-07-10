@@ -163,3 +163,91 @@
     border-radius: 8px;
 }
 
+
+/*  FAQ Section Styles */
+.faq-section {
+    background-color: rgb(216, 242, 178);
+    padding: 60px 20px;
+    border-radius: 16px;
+    max-width: 1100px;
+    margin: 50px auto; 
+    border: 2px dashed #a855f7; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.faq-section h2 {
+    color: #6b21a8; 
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.faq-subtitle {
+    color: #7e22ce;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+.faq-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(107, 33, 168, 0.05); 
+}
+
+.faq-card h3 {
+    color: #1e1b4b;
+    font-size: 1.15rem;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.faq-card p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.faq-footer {
+    margin-top: 30px;
+    border-top: 1px solid #c7a0ee;
+    padding-top: 30px;
+}
+
+.faq-footer p {
+    color: #581c87;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.faq-contact-btn {
+    background-color: #7e22ce;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+
+
